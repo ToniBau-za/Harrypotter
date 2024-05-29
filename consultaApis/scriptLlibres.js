@@ -1,4 +1,5 @@
-    const url='https://potterapi-fedeperin.vercel.app/es/books' //cambiar "houses" para diferente info
+  async function Libros(){
+  const url='https://potterapi-fedeperin.vercel.app/es/books' //cambiar "houses" para diferente info
 
 fetch(url)
     .then(response=> response.json() )
@@ -29,5 +30,5 @@ fetch(url)
         });
 
     })
-    .catch(err=>console.log(err))
+    .catch(err=>console.log(err))}
 

@@ -36,5 +36,9 @@
     margin-top: 10px;
     font-size: 1em;
 }
-
+.button {
+    background-color: black;
+    color: white;
+    font-size: 20px
+}
 
